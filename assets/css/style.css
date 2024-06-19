@@ -1,1 +1,398 @@
+@import url('https://fonts.googlepis.com/css2?family=Poppins:wght@100&display=swap');
+
+.nav-twenty{
+    margin-left: 20%;
+
+}
+
+.nav-bar{
+   margin-left: 1%;
+}
+
+
+.cart-2{
+    margin-left: 1900%;
+    margin-top: 3px;
+}
+
+.profile-2{
+    margin-left: 560px;
+    margin-top: 3px;
+}
+
+
+.cart-1{
+    margin-left: 1250%;
+    margin-top: 3px;
+}
+
+.profile-1{
+    margin-left: 330px;
+    margin-top: 3px;
+}
+
+.cart-3{
+    margin-left: 2050%;
+    margin-top: 3px;
+}
+
+.profile-3{
+    margin-left: 600px;
+    margin-top: 3px;
+}
+
+
+
+
+
+
+
+
+.cart-4{
+    margin-left: 2500%;
+    margin-top: 3px;
+}
+
+.profile-4{
+    margin-left: 760px;
+    margin-top: 3px;
+}
+
+
+
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+@media only screen and(max-width:990px){
+
+.nav-twenty{
+    margin-left: 20%;
+
+}
+
+#nav-twenty ul {
+    margin: 1rem;
+    justify-content: flex-start;
+    align-items: flex-start;
+    text-align: left;
+}
+.nav-twenty ul .fas{
+    margin: 20px 5px 10px 20px;
+}
+}
+.navbar-nav .nav-item .nav-link:hover {
+    color: rgb(5, 143, 5); 
+}
+
+.navbar-nav .nav-item .fa-solid:hover {
+    color: rgb(5, 143, 5); 
+}
+
+
+.navbar-nav .nav-item .fa-cart-shopping:hover {
+    color: rgb(5, 143, 5); 
+}
+
+.cart-1:hover img,
+.profile-1:hover img {
+    transform: scale(1.1); 
+}
+
+.product-container {
+    margin-top: 300px; 
+}
+
+.card .card-img-top {
+    height: 250px;
+    width: 350px;
+}
+
+.card  {
+    height: 620px;
+    width: 351px;
+}
+
+.col-md-6 .card-2  {
+    height: 470px;
+    width: 351px;
+    background-color: #fff;
+}
+
+.card-2 .card-img-top {
+    height: 400px;
+    width: 350px;
+}
+
+.product-container{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.card-body input{
+width: 60px;
+height: 35px;
+border-color: green;
+}
+
+
+.cart table{
+    width: 100%;
+    border-collapse: collapse;
+
+}
+
+.cart .product-info{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.cart th{
+    text-align: left;
+    padding: 5px 10px;
+    color: #fff;
+    background-color: green;
+}
+
+.cart td{
+    padding: 10px 20px;
+}
+
+.cart td img{
+    width: 80px;
+    height: 80px;
+    margin-right: 10px;
+}
+
+.cart td input{
+    width: 40px;
+    height: 30px;
+    padding: 5px;
+}
+
+.cart td a{
+    color: green;
+}
+
+.cart .remove-btn{
+    color: green;
+    text-decoration: none;
+    font-size: 14px;
+    background-color: beige;
+    border: none;
+    width: 100%;
+}
+
+.cart .edit-btn{
+    color: green;
+    text-decoration: none;
+    font-size: 15px;
+    background-color: beige;
+    border: none;
+}
+
+.cart .product-info p{
+    margin: 3px;
+}
+
+.cart-total{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.cart-total table{
+    width: 100%;
+    max-width: 500px;
+    border-top: 3px solid green;
+}
+
+td:last-child{
+    text-align: right;
+}
+
+th:last-child{
+    text-align: right;
+}
+
+.checkout-container{
+    display: flex;
+    justify-content: flex-end;
+}
+.checkout-btn{
+    background-color: green;
+    color: white;
+}
+
+
+#login-form{
+    width: 50%;
+    margin: 5px auto;
+    text-align: center;
+    padding: 20px;
+    border-top: 1px solid green;
+}
+
+#login-form input{
+    width: 50%;
+    margin: 5px auto;
+
+}
+
+#login-form #login-btn{
+    background-color: green;
+    color: white;
+
+}
+
+#login-form #register-url{
+    color: green;
+}
+
+
+#register-form{
+    width: 50%;
+    margin: 5px auto;
+    text-align: center;
+    padding: 20px;
+    border-top: 1px solid green;
+}
+#register-form input{
+    width: 50%;
+    margin: 5px auto;
+}
+
+#register-form #register-btn{
+    background-color: green;
+    color: white;
+
+}
+
+#register-form #login-url{
+    color: green;
+}
+
+#account-form{
+    width: 50%;
+    margin: 35px auto;
+    text-align: center;
+    padding: 20px;
+}
+
+#account-form input{
+    margin: 5px auto;
+
+}
+
+#account-form #change-pass-btn{
+    color: white;
+    background-color: green;
+}
+
+.account-info #orders-btn,#logout-btn{
+    color: green;
+    text-decoration: none;
+}
+
+#checkout-form .checkout-small-element{
+    display: inline-block;
+    width: 48%;
+    margin: 10px auto;
+}
+
+#checkout-form .checkout-large-element{
+    width: 96%;
+
+}
+
+#checkout-form .checkout-btn-container{
+    margin: 10px;
+    text-align: right;
+    margin-right: 40px;
+}
+
+#checkout-form #checkout-btn{
+    color: white;
+    background-color: green;
+}
+
+.orders table{
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.orders .product-info{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.orders th{
+   
+    padding: 5px 10px;
+    color: white;
+    background-color: green;
+   
+}
+
+.orders td{
+    padding: 10px 20px;
+
+}
+
+.orders td img{
+    width: 80px;
+    height: 80px;
+    margin-right: 10px;
+}
+
+.orders .order-details-btn{
+    color: white;
+    background-color: green;
+}
+
+
+.dropdown-submenu:hover .dropdown-menu {
+        display: block;
+        background-color: beige !important;
+    color: white !important;
+    }
+
+.col-md-4{
+    margin-top: 60px;
+}
+
+.dropdown-menu .dropdown-item:hover{
+
+    background-color:rgb(9, 155, 9);
+
+}
+
+/* Style for suggestions */
+.list-group-item {
+    cursor: pointer; /* Add pointer cursor to indicate clickability */
+  }
+  
+  /* Style for suggestions when hovered */
+  .list-group-item:hover {
+    background-color: #e9ecef; /* Change background color on hover */
+  }
+  
+  /* Style for suggestions when clicked */
+  .list-group-item:active {
+    background-color: #ced4da; /* Change background color when clicked */
+  }
+
+
+  .card {
+    transition: transform 0.3s ease, background-color 0.3s ease; /* Add smooth transition for both transform and background-color */
+    
+  }
+  
+  .card:hover {
+    transform: scale(1.07); /* Increase size on hover */
+    background-color: rgba(148, 146, 146, 0.3); /* Change background color to faded grey */
+  }
+  
 
